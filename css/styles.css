@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background: #f4f3ee;
+}
+
+.header {
+  width: 40%;
+  background: url('/images/background.jpg') no-repeat;
+}
+
+.logo__container {
+  width: 100%;
+  margin-top: 200px;
+  background-color: rgba(0, 0, 0, 0.411);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo__image {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+}
+
+.logo__text {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.main {
+  width: 60%;
+  height: 100vh;
+  /* margin-left: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.textbox {
+  margin-left: 50px;
+  justify-content: flex-end;
+  height: 25%;
+}
+
+.form {
+  height: 40%;
+}
+
+.form__title {
+  margin: 0;
+  background: #fff;
+  padding: 10px 50px;
+}
+
+.mainform-container {
+  padding: 20px 50px;
+  background: #fff;
+  display: flex;
+  /* height: 400px; */
+  gap: 50px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.103);
+}
+.mainform__flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mainform__fex-subcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-button {
+  margin-left: 50px;
+  margin-top: 30px;
+  display: flex;
+  position: static;
+}
+
+.login-container {
+  margin-left: 50px;
+  height: 20%;
+}
