@@ -54,6 +54,11 @@ body {
   height: 25%;
 }
 
+.textbox p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .form {
   height: 40%;
 }
@@ -70,12 +75,29 @@ body {
   display: flex;
   /* height: 400px; */
   gap: 50px;
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.103);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.021);
 }
 .mainform__flex-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.form__label {
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.input {
+  background: #f4f3ee;
+  border: 0.3px solid rgba(209, 207, 207, 0.521);
+  border-radius: 5px;
+  height: 1.5rem;
+}
+
+.input:focus {
+  border: 0.3px solid rgb(2, 2, 255);
 }
 
 .mainform__fex-subcontainer {
@@ -84,8 +106,15 @@ body {
 }
 
 .create-button {
+  padding: 15px 35px;
+  background: rgb(63, 83, 39);
+  border: none;
+  border-radius: 8px;
   margin-left: 50px;
   margin-top: 30px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #fff;
   display: flex;
   position: static;
 }
@@ -93,4 +122,10 @@ body {
 .login-container {
   margin-left: 50px;
   height: 20%;
+}
+
+.login__link {
+  color: rgb(63, 83, 39);
+  text-decoration: none;
+  font-weight: bold;
 }
